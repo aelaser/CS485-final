@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.min.css">
+
+        <title>Amin El Asery</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Amin El Asery</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon' ></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolios" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#languages" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Languages
+                            </a>
+                        </li>
+                        
+                       
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left__1" id = "">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <!-- <img src="assets/img/perfil.jpg" alt="" class="home__img"> -->
+
+                                <h1 class="home__title">Amin <b>El Asery</b></h1>
+                                <!-- <h3 class="home__profession">Web developer</h3> -->
+
+                                <div>
+                                    <!-- Button to download your CV saved in the pdf folder. Available for mobile -->
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Dowload Cv</a>
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div class="home__container section bd-grid">
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> amin.el.asery@emory.edu
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-face home__icon' ></i>www.aminalasri.com
+                                </span>
+                                
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i>(404)-395-5706 
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>
+
+                     <!--========== PROFILE ==========-->
+                     <section class="profile section" id="profile">
+                        <h2 class="section-title">About me</h2>
+                        <p class="profile__description">I am a senior at Emory University, starting to look for roles in the HCI industry. My interest in Human Behavior and Human-Centered solutions has motivated me to explore career opportunities in HCI. I have experience in UX/UI design and product design, which has provided me with valuable skills in user empathy, project management, and active listening.</p>
+                    </section>
+                </div>
+                <div class="resume__left" id = "a">
+
+                    
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <h3 class="experience__title" id ="skill_title">Design:</h3>
+                        <div class="skills__content skills-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Design Strategy
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> User Journey Mapping
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Interaction Design
+                                </li>
+                            </ul>
+                            
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> High Fidelity Prototyping
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Micro-interactions
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Motion Design
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h3 class="experience__title" id ="skill_title">Programming:</h3>
+                        <div class="skills__content skills-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Java, Python, C
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> JavaScript, HTML/CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> PHP, C#, SQL
+                                </li>
+                            </ul>
+                            
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Arduino
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Unity 3D, Unreal Engine
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Source Control (Git)
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h3 class="experience__title" id ="skill_title">Tools:</h3>
+                        <div class="skills__content skills-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Adobe Photoshop
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Adobe Illustrator
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Adobe InDesign
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Adobe After Effects
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Adobe Premiere Pro
+                                </li>
+                            </ul>
+                            
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Sketch, Figma
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Autodesk 3ds Max
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Principle
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Framer Studio
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Adobe XD
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section" id ="languages">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>English: Full proficiency
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Moroccan Darija: Native
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>French: Full proficiency
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Arabic: Full proficiency
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Spanish: Limited proficiency
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-code-block interests__icon'></i>
+                                <span class="interests__name">Coding</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bxs-book interests__icon'></i>
+                                <span class="interests__name">Equity in Education</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bxs-bulb interests__icon' ></i>
+                                <span class="interests__name">Entrepreneurship</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bxs-brain interests__icon' ></i>
+                                <span class="interests__name">Psychology</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bxs-video interests__icon' ></i>
+                                <span class="interests__name">Videography</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bxs-tree interests__icon' ></i>
+                                <span class="interests__name">Outdoors</span>
+                            </div>
+                        </div>
+                    </section>
+
+                     <!--========== SOCIAL ==========-->
+                     <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+                        
+                        <div class="social__container bd-grid">
+                            <a href="https://github.com/aelaser" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon'></i>
+                                aelaser
+                            </a>
+                            <a href="https://www.linkedin.com/in/amin-e-b5389b160" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i>
+                                Amin El Asery
+                            </a>
+                            
+                    
+                        </div>
+                    </section>
+                    
+                </div>
+
+                <div class="resume__right" id = "b">
+                    <!--========== Education cust ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title" id ="education_title">Education</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Emory University, Emory College of Arts and Sciences </h3>
+                                    <span class="experience__company">Bachelor of Science, Computer Science. Double Major: Religion</span>
+                                    <p class="experience__description">+ Relevant Courses: Human Computer Interaction, Data Visualization, Graphics & CAD, 3D Visualization, Selected Programming Languages: Programming in Python, Data Structures & Algorithms, Artificial Intelligence, Computer Security, Comp.Arch./Machine Level Programming</p>
+                                </div>
+                            </div>
+
+
+                            
+                        </div>
+                    </section>
+
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Emory University Libraries - UX Research Assistant</h3>
+                                    <span class="experience__company">Atlanta, GA | Nov. 2021 – Present</span>
+                                    <p class="experience__description">+ Surveyed and interviewed library users to identify needs for redesigning Emory’s libraries pages.
+                                        <br>+ Summarized findings in a UI/UX report of the improvements needed and coordinated the planning, direction, 
+                                        and implementation of these improvements. Fine-tuned the HTML/CSS migration to the new libraries’ pages.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">BoConcept - UX/UI Design Intern</h3>
+                                    <span class="experience__company">San Francisco, CA | Jun. 2021 – Aug. 2021</span>
+                                    <p class="experience__description">+ Crafted UX flows, designed interfaces and conducted user studies to redesign Flexa’ main page to deliver a more usable and delightful experience. Improved Flexa’s load speed by 56% and enhanced users’ experience and engagement. 
+                                        <br>+ Conducted usability tests, heuristic evaluations and benchmarking analyses on furniture products, and presented findings and design recommendations to product managers, designers, and engineers.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Moroccan National Federation of Scouting - Product Design Intern</h3>
+                                    <span class="experience__company">Rabat, Morocco | Jun. 2020 – Aug. 2020</span>
+                                    <p class="experience__description">+ Collaborated with UX team management to create personas, scenarios, user journeys, story maps, and user flows.
+                                        <br>+ Led the UI team to design the logo, all graphics, and the responsive website flow for a scouting branch (SHM).</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">CodeOut - Atlanta, GA</h3>
+                                    <span class="experience__company">San Francisco, California | May 2019 – Jul. 2019</span>
+                                    <p class="experience__description">+ Designed an internal dashboard allowing administrators to view users’ applications, +100 applicants’ information, incorporating user research and usability test findings.
+                                        <br>+ Took part in the understanding and design phases of multiple projects, including user and competitive research, wireframing, visual design, branding, and various other communication assets.</p>
+                                </div>
+                            </div>
+
+
+
+
+                           
+                        </div>
+                    </section>
+
+                     <!--========== portfolioS ==========-->
+                     <section class="portfolio section" id="portfolios">
+                        <h2 class="section-title">Portfolio</h2>
+                        <div class="work__filters">
+                            <span class="buttonFilter work__item active-work" data-filter = "all">All</span>
+                            <span class="buttonFilter work__item" data-filter = "ux">UX/UI</span>
+                            <span class="buttonFilter work__item" data-filter = "coding">Coding</span>
+                            <span class="buttonFilter work__item" data-filter = "animation">Animations</span>
+                            <span class="buttonFilter work__item" data-filter = "graphics">Graphics</span>
+                        </div>
+
+                        <div class="work__container" id="slider">
+                            <div class = "slide flickity ux">
+                                <div class="work__card ">
+                                    <img src="assets/img/checkin.jpg" alt="" class="work__img">
+                                    <h3 class="work__title">Airport Design: Improving Check-in Experience</h3>
+                                    <a href="" class="work__button"  target="_blank">
+                                        Read more <i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity ux">
+                                <div class="work__card  ">
+                                    <img src="assets/img/marta.jpg" alt="" class="work__img">
+                                    <h3 class="work__title">Redesign of the Fox Theater Mobile App </h3>
+                                    <a href="https://bit.ly/3rYHqMm" class="work__button">
+                                        Read more <i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity ux">
+                                <div class="work__card  ">
+                                    <img src="assets/img/airport.jpg" alt="" class="work__img">
+                                    <h3 class="work__title"> Data-Visualization: Air Travel During the COVID-19 Pandemic</h3>
+                                    <a href="" class="work__button">
+                                        Read more <i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity ux">
+                                <div class="work__card  ">
+                                    <img src="assets/img/airport.jpg" alt="" class="work__img">
+                                    <h3 class="work__title"> Design for Tension: Gun Control Chatbot</h3>
+                                    <a href="" class="work__button">
+                                        Read more <i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity coding">
+                                <div class="work__card  ">
+                                    <img src="assets/img/hulu.png" alt="" class="work__img">
+                                    <h3 class="work__title">Redesigning Hulu Interface with React.js (Next.js, Tailwind CSS)</h3>
+                                    <div class ="coding-ex">
+                                        <a href="https://bit.ly/3qZyiqA" target="_blank" class="social__link">
+                                            <i class='bx bxl-github social__icon'></i>
+                                            Check Code | 
+                                        </a>
+                                        <a href="https://bit.ly/3j3429Q" class="work__button" target="_blank">
+                                            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                                        </a>
+                                        
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class = "slide flickity coding">
+                                <div class="work__card  ">
+                                    <img src="assets/img/dooley21.gif" alt="" class="work__img">
+                                    <h3 class="work__title">Emory University’s Hackathon (HTML/CSS, Javascript)</h3>
+                                    <div class ="coding-ex">
+                                        <a href="https://bit.ly/3j2jGST" target="_blank" class="social__link">
+                                            <i class='bx bxl-github social__icon'></i>
+                                            Check Code | 
+                                        </a>
+                                        <a href="https://bit.ly/37cKbCg" class="work__button" target="_blank">
+                                            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class = "slide flickity coding">
+                                <div class="work__card  ">
+                                    <img src="assets/img/hulu.png" alt="" class="work__img">
+                                    <h3 class="work__title">ResearchU to find research opportunities (React.js, Node.js)</h3>
+                                    <div class ="coding-ex">
+                                        <a href="https://bit.ly/3x0hjYO" target="_blank" class="social__link">
+                                            <i class='bx bxl-github social__icon'></i>
+                                            Check Code 
+                                        </a>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                           
+                            <div class = "slide flickity coding">
+                                <div class="work__card  ">
+                                    <img src="assets/img/Taichifootwork.png" alt="" class="work__img">
+                                    <h3 class="work__title">Creative Project: Tai Chi Footwork (HTML/CSS, Javascript)</h3>
+                                    <div class ="coding-ex">
+                                        <a href="https://bit.ly/3LFHSH2" target="_blank" class="social__link">
+                                            <i class='bx bxl-github social__icon'></i>
+                                            Check Code | 
+                                        </a>
+                                        <a href="https://bit.ly/3DBN4Zy" class="work__button" target="_blank">
+                                            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class = "slide flickity coding">
+                                <div class="work__card  ">
+                                    <img src="assets/img/converse.gif" alt="" class="work__img">
+                                    <h3 class="work__title">Converse: an AI Art Critic Chatbot (Python, Javascript)</h3>
+                                    <div class ="coding-ex">
+                                        <a href="https://bit.ly/38kcShf" target="_blank" class="social__link">
+                                            <i class='bx bxl-github social__icon'></i>
+                                            Check Code | 
+                                        </a>
+                                        <a href="https://bit.ly/3u4bVC8" class="work__button" target="_blank">
+                                            Wireframes <i class="bx bx-right-arrow-alt work__icon"></i>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class = "slide flickity animation ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/curiosity.gif" alt="" class="work__img">
+                                    <h3 class="work__title">What Is Curiosity and Its History? (Adobe After Effects, Illustrator)</h3>
+                                    <a href="https://bit.ly/3r1pMr3" class="work__button" target="_blank">
+                                        Watch Video <i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity animation ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/constitution.gif" alt="" class="work__img">
+                                    <h3 class="work__title">Moroccan Media Influence on Laws (After Effects, Illustrator)</h3>
+                                    <a href="https://bit.ly/3KbX26z" class="work__button" target="_blank">
+                                        Watch Video <i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity animation ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/math.gif" alt="" class="work__img">
+                                    <h3 class="work__title">The Science Behind Math Anxiety (Adobe After Effects, Illustrator)</h3>
+                                    <a href="https://bit.ly/3NMQA8d" class="work__button" target="_blank">
+                                        Watch Video <i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity animation ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/medmoot.gif" alt="" class="work__img">
+                                    <h3 class="work__title">MedMoot: Moroccan Scouts Event Promo (After Effects, Illustrator)</h3>
+                                    <a href="https://bit.ly/3J7fFY0" class="work__button" target="_blank">
+                                        Watch Video <i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity graphics ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/graph1.png" alt="" class="work__img">
+                                    <h3 class="work__title">The Life Cycle of Plastic (Adobe Illustrator)</h3>
+                                    <a href="https://bit.ly/3JiTgqx" class="work__button" target="_blank">
+                                        Check Work<i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity graphics ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/graph2.png" alt="" class="work__img">
+                                    <h3 class="work__title">The Life Cycle of Plastic (Adobe Illustrator)</h3>
+                                    <a href="https://bit.ly/37zeDHb" class="work__button" target="_blank">
+                                        Check Work<i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity graphics ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/graph3.png" alt="" class="work__img">
+                                    <h3 class="work__title">The Life Cycle of Plastic (Adobe Illustrator)</h3>
+                                    <a href="https://bit.ly/3unYxJq" class="work__button" target="_blank">
+                                        Check Work<i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity graphics ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/graph4.png" alt="" class="work__img">
+                                    <h3 class="work__title">The Life Cycle of Plastic (Adobe Illustrator)</h3>
+                                    <a href="https://bit.ly/3NXPuX5" class="work__button" target="_blank">
+                                        Check Work<i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity graphics ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/graph5.jpg" alt="" class="work__img">
+                                    <h3 class="work__title">The Life Cycle of Plastic (Adobe Illustrator)</h3>
+                                    <a href="https://bit.ly/3DYBqbA" class="work__button" target="_blank">
+                                        Check Work<i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity graphics ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/graph6.jpg" alt="" class="work__img">
+                                    <h3 class="work__title">The Life Cycle of Plastic (Adobe Illustrator)</h3>
+                                    <a href="https://bit.ly/3uncAPh" class="work__button" target="_blank">
+                                        Check Work<i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity graphics ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/graph7.png" alt="" class="work__img">
+                                    <h3 class="work__title">The Life Cycle of Plastic (Adobe Illustrator)</h3>
+                                    <a href="https://bit.ly/3KtoTiO" class="work__button" target="_blank">
+                                        Check Work<i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity graphics ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/graph8.jpg" alt="" class="work__img">
+                                    <h3 class="work__title">The Life Cycle of Plastic (Adobe Illustrator)</h3>
+                                    <a href="https://bit.ly/3xeVy7F" class="work__button" target="_blank">
+                                        Check Work<i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class = "slide flickity graphics ">
+                                <div class="work__card  ">
+                                    <img src="assets/img/graph9.png" alt="" class="work__img">
+                                    <h3 class="work__title">The Life Cycle of Plastic (Adobe Illustrator)</h3>
+                                    <a href="https://bit.ly/3v2T35O" class="work__button" target="_blank">
+                                        Check Work<i class="bx bx-right-arrow-alt work__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div> 
+
+
+
+                        
+                    </section>
+
+                    <!--========== LEADERSHIP & COMMUNITY INVOLVEMENT ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">COMMUNITY INVOLVEMENT</h2>
+
+                        <div class="experience__container bd-grid">
+                            
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Department of Computer Science, Emory University</h3>
+                                    <span class="experience__company">Frontend Developer | Aug. 2021 – Present </span>
+                                    <p class="experience__description">+ A self-initiated project to develop a database management system that will help Emory professors share research opportunities quickly and effectively across different departments, which in turn will help increase students’ involvement in research on campus. </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">DooleyHacks, Emory’s Hackathon</h3>
+                                    <span class="experience__company">Front-end Developer (2019), Head of UX/UI (2020) | Fall 2019 – Present</span>
+                                    <p class="experience__description">+ Designed and developed the website and registration system for DooleyHacks 2019 and 2020.<br> + Leading a team of 4 designers in preparation for DooleyHacks 2022. Involved in defining product strategy, creating wireframes and interactive prototypes and concept and usability testing for the hackathon.</p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        <!--========== MIXITUP ==========-->
+        <script src="assets/js/mixitup.min.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+        
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
