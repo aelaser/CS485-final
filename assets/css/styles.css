@@ -271,8 +271,9 @@ img{
   
 }
 
-#education_title {
-  margin-top: 1.5rem;
+.education-class {
+  /* margin-top: 1.5rem; */
+  padding-top: 0;
 }
 /* #profile {
   order: 2;
@@ -532,6 +533,9 @@ img{
 }
 
 /*========== portfolioS ==========*/
+#portfolio-marg {
+  padding-top: 1.5rem;
+}
 .portfolio__title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
@@ -881,9 +885,9 @@ margin-right: 0;
     gap: 1.5rem;
   }
 
-  .home__button-movil{
+  /* .home__button-movil{
     display: none;
-  }
+  } */
   .flickity {
     width: 60%;
   }
